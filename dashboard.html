@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dashboard</title>
+		<link rel="stylesheet" type="text/css" href="css\dashboard.css">
+        <script src="js\Chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+	</head>
+	<body>
+		<header>
+			<h1>Dashboard</h1>
+			<div class="user-info">
+				<p>Welcome, Admin</p>
+				<a class="logout-button" href="index.html">Logout</a>
+			</div>
+		</header>
+		<div class="container">
+			<div class="sidebar">
+				<ul>
+					<li><a href="#">Pie Chart</a></li>
+					<li><a href="#">Line Chart</a></li>
+					<li><a href="#">Bar Chart</a></li>
+				</ul>
+			</div>
+			<div class="main-content">
+				<h2>Main Content</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ex a ipsum rhoncus, quis euismod nisi eleifend. Praesent commodo urna eget nibh bibendum, sed luctus dolor fringilla. Fusce semper mauris eu ante varius ullamcorper. Aliquam erat volutpat. In eu neque ac metus posuere placerat.</p>
+                <div id="chart"></div>
+                <canvas id="myChart"></canvas>
+
+            </div>
+		</div>
+	</body>
+</html>
